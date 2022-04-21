@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+
+div {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+body {
+    display: flex;
+    flex-wrap:wrap;
+    padding-top:3rem;
+    background-color: #55d6c2 ;
+}
+
+.text {
+    font-family: 'Beau Rivage', cursive;
+    font-size: 30px;
+    position: fixed;
+    top:1rem;
+    left: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.1cm;
+    color: black  ;
+}
+
+.add {
+    position: fixed;
+    top:1rem;
+    right: 11rem;
+    border-radius: 25px;
+    font-size:20px;
+    background-color: #f49097 ;
+    color: white;
+    border: none;
+}
+
+.clear {
+    position: fixed;
+    top:1rem;
+    right: 1rem;
+    border-radius: 25px;
+    font-size:20px;
+    background-color: #f49097 ;
+    color: white;
+    border: none;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.note {
+    background-color: #F9EDD6;
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+    margin-bottom: 80px;
+}
+
+.note .tools {
+    background-color: #f49097 ;
+    display:flex;
+    justify-content: flex-end;
+}
+
+.note .tools button {
+    border: none;
+    background-color: transparent;
+    color:white;
+}
+
+.note textarea {
+    height: 400px;
+    width:90%;
+    padding: 20px;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F9EDD6;
+}
+
+.main {
+    padding: 20px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    inline-size: 350px;
+    overflow-wrap: break-word;
+    position:relative;
+    white-space: pre-wrap;     /*so that white spaces and enter also be counted when displayed in div(main)*/ 
+}
+
+.hidden {
+    display:none;
+}
+
+
